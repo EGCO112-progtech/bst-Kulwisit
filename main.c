@@ -21,7 +21,9 @@ int main( int argc, char** argv )
    postOrder( b.root);
    printf("\ninOrder\n" );
    inOrder( b.root );
+   printf("\n");
    Lap_print( b.root, 0);
+   printf("\n");
 
 } // end main
 
