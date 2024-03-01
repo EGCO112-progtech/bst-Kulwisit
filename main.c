@@ -15,28 +15,13 @@ int main( int argc, char** argv )
    } // end for
 
    // traverse the tree inOrder
-   printf("\nThe inOrder traversal is:\n" );
-   inOrder( b.root );
-   printf("\n");
-   printf("\nThe preOrder traversal is:\n" );
+   printf("\npreOrder\n" );
    preOrder( b.root );
-   printf("\n");
-   printf("\nThe postOrder traversal is:\n" );
+   printf("\npostOrder\n" );
    postOrder( b.root);
-   printf("\n");
-   printf("\nThe Lap_print traversal is:\n" );
+   printf("\ninOrder\n" );
+   inOrder( b.root );
    Lap_print( b.root, 0);
-   printf("\n");
-
-   // traverse the tree preOrder
-   // printf("\nThe preOrder traversal is:\n" );
-   // preOrder( rootPtr );
-
-   // traverse the tree postOrder
-   // printf("\nThe postnOrder traversal is:\n" );   
-   // postOrder( rootPtr );
-
-   printf("\n");
 
 } // end main
 

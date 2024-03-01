@@ -129,7 +129,7 @@ void Lap_print( TreeNodePtr treePtr, int n )
       Lap_print( treePtr->rightPtr, n+1 ); //Recursion to the left
 
       for (int i = 0; i < n; i++) {
-         printf("\t");
+         printf("    ");
       }
       printf("%3d\n",treePtr->data) ;  //print the value 
    
